@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 20px;
+}
+
+body {
+	text-align: center;
+    margin: 0;
+	padding: 0;
+	background-color: #f0d6d6;
+}
+
+.word {
+    border: 2px solid black;
+}
