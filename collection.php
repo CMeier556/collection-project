@@ -9,6 +9,3 @@ $query->execute();
 
 $word_collection = $query->fetchAll();
 
-echo '<pre>';
-var_dump ($word_collection);
-echo '</pre>';
