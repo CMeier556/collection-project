@@ -9,11 +9,14 @@
 </head>
 <body>
     <h1>Welcome to Colin's Word Collection!</h1>
-    <p>Here are some of my favorite words from the dictionary</p>
-    <div class="word">
-        <p class="definition">Name - Definition</p>
-        <p class="stat1">Synonyms</p>
-        <p class="stat2">Example Sentence</p>
-    </div>
+    <p>Here are some of my favorite words from the dictionary.</p>
+        <section class="word_container">
+            <div class="item">
+                <h3 class="word"><strong>Word</strong></h3>
+                <p class="stat">Definition:</p>
+                <p class="stat">Synonyms:</p>
+                <p class="stat">Example Sentence:</p>
+            </div>
+    </section>
 </body>
 </html>

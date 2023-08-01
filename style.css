@@ -3,7 +3,7 @@
 }
 
 html {
-	font-family: "Trebuchet MS", sans-serif;
+	font-family: "Luminari", fantasy;
 	font-size: 20px;
 }
 
@@ -14,6 +14,16 @@ body {
 	background-color: #f0d6d6;
 }
 
-.word {
-    border: 2px solid black;
+.item {
+    border: 1px solid black;
+	width: 80%;
+}
+
+.word_container {
+	display: flex;
+	justify-content: center;
+}
+
+h3 {
+	font-size: 1.5rem;
 }
