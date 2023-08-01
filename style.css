@@ -9,19 +9,18 @@ html {
 
 body {
 	text-align: center;
-    margin-left: 100px;
-	margin-right: 100px;
+    margin: 0;
 	padding: 0;
 	background-color: #f0d6d6;
 }
 
 .item {
     border: 1px solid black;
-	width: 100%;
+	width: 80%;
 }
 
 .word {
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
 
 .word-container {
@@ -31,5 +30,5 @@ body {
 }
 
 b {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 }
