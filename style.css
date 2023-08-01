@@ -20,11 +20,15 @@ body {
 }
 
 .word {
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 .word-container {
 	display: flex;
 	justify-content: center;
 	margin: 20px;
+}
+
+b {
+	font-size: 1.3rem;
 }
