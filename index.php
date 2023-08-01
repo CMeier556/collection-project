@@ -11,6 +11,7 @@ $word_collection = $query->fetchAll();
 <!DOCTYPE html>
 
 <html>
+
     <head>
         <title>Colin's Collection</title>
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -25,4 +26,5 @@ $word_collection = $query->fetchAll();
         }
     ?>
     </body>
+
 </html>
