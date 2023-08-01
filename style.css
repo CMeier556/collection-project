@@ -19,11 +19,16 @@ body {
 	width: 80%;
 }
 
-.word_container {
-	display: flex;
-	justify-content: center;
+.word {
+	font-size: 2rem;
 }
 
-h3 {
-	font-size: 1.5rem;
+.word-container {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+b {
+	font-size: 1.3rem;
 }
