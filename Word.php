@@ -19,7 +19,7 @@ class Word {
         return 
         "<section class='word-container'>
             <div class='item'>
-                <h3 class='dictionaryWord'>$this->name</h3>
+                <h2 class='dictionaryWord'>$this->name</h2>
                 <p class='stat'><b>Definition</b>:  $this->definition</p>
                 <p class='stat'><b>Synonyms</b>:  $this->synonyms</p>
                 <p class='stat'><b>Example Sentence</b>:  $this->sentence</p>

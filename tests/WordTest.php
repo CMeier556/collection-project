@@ -16,7 +16,7 @@ class WordTest extends TestCase {
         $expectedResult = 
         "<section class='word-container'>
             <div class='item'>
-                <h3 class='dictionaryWord'>beer</h3>
+                <h2 class='dictionaryWord'>beer</h2>
                 <p class='stat'><b>Definition</b>:  a lovely drink</p>
                 <p class='stat'><b>Synonyms</b>:  ale, pint, lager</p>
                 <p class='stat'><b>Example Sentence</b>:  I love beer</p>
