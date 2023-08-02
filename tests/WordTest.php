@@ -4,7 +4,8 @@ use PHPUnit\Framework\TestCase;
 
 class WordTest extends TestCase {
 
-    public function testWordCardCreator() {
+    public function testWordCardCreator() 
+    {
         
         $name = 'beer';
         $definition = 'a lovely drink';
@@ -17,9 +18,9 @@ class WordTest extends TestCase {
         "<section class='word-container'>
             <div class='item'>
                 <h3 class='word'>beer</h3>
-                <p class='stat'><b>Definition</b>:a lovely drink</p>
-                <p class='stat'><b>Synonyms</b>:ale, pint, lager</p>
-                <p class='stat'><b>Example Sentence</b>:I love beer</p>
+                <p class='stat'><b>Definition</b>:  a lovely drink</p>
+                <p class='stat'><b>Synonyms</b>:  ale, pint, lager</p>
+                <p class='stat'><b>Example Sentence</b>:  I love beer</p>
             </div>
         </section>";
 
