@@ -9,15 +9,16 @@ $word_collection = $query->fetchAll();
 ?>
 
 <!DOCTYPE html>
-
 <html lang="en-GB">
     <head>
         <title>Colin's Collection</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h1>Welcome to Colin's Word Collection!</h1>
-        <p>Here are some of my favorite words from the dictionary.</p>
+        <header>
+            <h1>Welcome to Colin's Word Collection!</h1>
+        </header>
+            <p>Here are some of my favorite words from the dictionary.</p>
         <?php 
         foreach ($word_collection as $word) {
             $word = new Word ($word['name'], $word['definition'], $word['synonyms'], $word['example_sentence']);
