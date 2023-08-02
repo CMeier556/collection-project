@@ -19,8 +19,8 @@ body {
 	width: 80%;
 }
 
-.word {
-	font-size: 2rem;
+.dictionaryWord {
+	font-size: 1.8rem;
 }
 
 .word-container {
@@ -30,5 +30,9 @@ body {
 }
 
 b {
-	font-size: 1.3rem;
+	font-size: 1.1rem;
+}
+
+.stat {
+	font-family: Garamond, serif;
 }
