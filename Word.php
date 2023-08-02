@@ -15,13 +15,14 @@ class Word {
     }
 
     public function createWordCard() {
-        return "<section class='word-container'>
-                    <div class='item'>
-                        <h3 class='word'>$this->name</h3>
-                        <p class='stat'><b>Definition</b>: $this->definition</p>
-                        <p class='stat'><b>Synonyms</b>:  $this->synonyms</p>
-                        <p class='stat'><b>Example Sentence</b>: $this->sentence</p>
-                    </div>
-                </section>";
+        return 
+        "<section class='word-container'>
+            <div class='item'>
+                <h3 class='word'>$this->name</h3>
+                <p class='stat'><b>Definition</b>:$this->definition</p>
+                <p class='stat'><b>Synonyms</b>:$this->synonyms</p>
+                <p class='stat'><b>Example Sentence</b>:$this->sentence</p>
+            </div>
+        </section>";
     }
 }   
