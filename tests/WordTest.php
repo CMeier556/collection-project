@@ -6,7 +6,6 @@ class WordTest extends TestCase {
 
     public function testWordCardCreator() 
     {
-        
         $name = 'beer';
         $definition = 'a lovely drink';
         $synonyms = 'ale, pint, lager';
@@ -17,7 +16,7 @@ class WordTest extends TestCase {
         $expectedResult = 
         "<section class='word-container'>
             <div class='item'>
-                <h3 class='word'>beer</h3>
+                <h3 class='dictionaryWord'>beer</h3>
                 <p class='stat'><b>Definition</b>:  a lovely drink</p>
                 <p class='stat'><b>Synonyms</b>:  ale, pint, lager</p>
                 <p class='stat'><b>Example Sentence</b>:  I love beer</p>
@@ -27,7 +26,5 @@ class WordTest extends TestCase {
         $result = $testWord->createWordCard();
 
         $this->assertEquals ($expectedResult, $result);
-    
-    
     }
 }
