@@ -4,27 +4,26 @@ use PHPUnit\Framework\TestCase;
 
 class WordTest extends TestCase {
 
-    public function testWordCardCreator() 
+    public function test_success_createWordCard() 
     {
         $name = 'beer';
         $definition = 'a lovely drink';
         $synonyms = 'ale, pint, lager';
         $sentence = 'I love beer';
 
-        $testWord = new Word ($name, $definition, $synonyms, $sentence);
+        $testWord = new Word($name, $definition, $synonyms, $sentence);
 
         $expectedResult = 
-        "<section class='word-container'>
+        "<section class='wordContainer'>
             <div class='item'>
                 <h2 class='dictionaryWord'>beer</h2>
-                <p class='stat'><b>Definition</b>:  a lovely drink</p>
-                <p class='stat'><b>Synonyms</b>:  ale, pint, lager</p>
-                <p class='stat'><b>Example Sentence</b>:  I love beer</p>
+                <p class='stat'><span>Definition</span>:  a lovely drink</p>
+                <p class='stat'><span>Synonyms</span>:  ale, pint, lager</p>
+                <p class='stat'><span>Example Sentence</span>:  I love beer</p>
             </div>
         </section>";
 
         $result = $testWord->createWordCard();
-
         $this->assertEquals ($expectedResult, $result);
     }
 }

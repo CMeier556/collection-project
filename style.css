@@ -1,38 +1,32 @@
 * {
 	box-sizing: border-box;
 }
-
 html {
 	font-family: "Luminari", fantasy;
 	font-size: 20px;
 }
-
 body {
 	text-align: center;
     margin: 0;
 	padding: 0;
 	background-color: #f0d6d6;
 }
-
 .item {
     border: 1px solid black;
 	width: 80%;
 }
-
 .dictionaryWord {
 	font-size: 1.8rem;
 }
-
-.word-container {
+.wordContainer {
 	display: flex;
 	justify-content: center;
 	margin: 20px;
 }
-
-b {
+span {
 	font-size: 1.1rem;
+	font-weight: bold;
 }
-
 .stat {
 	font-family: Garamond, serif;
 }

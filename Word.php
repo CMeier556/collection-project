@@ -17,12 +17,12 @@ class Word {
     public function createWordCard() 
     {
         return 
-        "<section class='word-container'>
+        "<section class='wordContainer'>
             <div class='item'>
                 <h2 class='dictionaryWord'>$this->name</h2>
-                <p class='stat'><b>Definition</b>:  $this->definition</p>
-                <p class='stat'><b>Synonyms</b>:  $this->synonyms</p>
-                <p class='stat'><b>Example Sentence</b>:  $this->sentence</p>
+                <p class='stat'><span>Definition</span>:  $this->definition</p>
+                <p class='stat'><span>Synonyms</span>:  $this->synonyms</p>
+                <p class='stat'><span>Example Sentence</span>:  $this->sentence</p>
             </div>
         </section>";
     }
