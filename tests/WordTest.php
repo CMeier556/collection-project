@@ -14,16 +14,16 @@ class WordTest extends TestCase {
         $testWord = new Word($name, $definition, $synonyms, $sentence);
 
         $expectedResult = 
-        "<section class='wordContainer'>
-            <div class='item'>
-                <h2 class='dictionaryWord'>beer</h2>
-                <p class='stat'><span>Definition</span>:  a lovely drink</p>
-                <p class='stat'><span>Synonyms</span>:  ale, pint, lager</p>
-                <p class='stat'><span>Example Sentence</span>:  I love beer</p>
+        '<section class="wordContainer">
+            <div class="item">
+                <h2 class="dictionaryWord">beer</h2>
+                <p class="stat"><span class="statDescription">Definition</span>:a lovely drink</p>
+                <p class="stat"><span class="statDescription">Synonyms</span>:ale, pint, lager</p>
+                <p class="stat"><span class="statDescription">Example Sentence</span>:I love beer</p>
             </div>
-        </section>";
-
+        </section>';
+        
         $result = $testWord->createWordCard();
-        $this->assertEquals ($expectedResult, $result);
+        $this->assertEquals($expectedResult, $result);
     }
 }

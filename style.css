@@ -23,7 +23,7 @@ body {
     justify-content: center;
     margin: 20px;
 }
-span {
+.statDescription {
     font-size: 1.1rem;
     font-weight: bold;
 }
