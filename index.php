@@ -28,7 +28,7 @@ foreach ($wordCollection as $word) {
         <p>Here are some of my favorite words from the dictionary.</p>
         <?php 
             foreach ($wordObjectArray as $wordObject) {
-            echo $wordObject->createWordCard();
+                echo $wordObject->createWordCard();
             }
         ?>
     </body>
