@@ -1,33 +1,33 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 html {
-	font-family: "Luminari", fantasy;
-	font-size: 20px;
+    font-family: "Luminari", fantasy;
+    font-size: 20px;
 }
 body {
-	text-align: center;
+    text-align: center;
     margin: 0;
-	padding: 0;
-	background-color: #f0d6d6;
+    padding: 0;
+    background-color: #f0d6d6;
 }
 .item {
     border: 1px solid black;
-	width: 80%;
+    width: 80%;
 }
 .dictionaryWord {
-	font-size: 1.8rem;
+    font-size: 1.8rem;
 }
 .wordContainer {
-	display: flex;
-	justify-content: center;
-	margin: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 span {
-	font-size: 1.1rem;
-	font-weight: bold;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 .stat {
-	font-family: Garamond, serif;
+    font-family: Garamond, serif;
 }
 
